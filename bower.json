@@ -1,0 +1,21 @@
+{
+  "name": "pushwhoosh_demo",
+  "description": "A Vue.js project",
+  "main": "",
+  "authors": [
+    "AlvaradoAdam15 <adamalvarado@iesebre.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/AlvaradoAdam15/PushWhooshDemo",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "admin-lte#~2.3.2"
+  }
+}
