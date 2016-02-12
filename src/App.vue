@@ -1,15 +1,19 @@
 <template>
-  <div id="app">
-    <hello></hello>
+  <div id="app" class="container">
+    <div class="row">
+    	<div class="col-md-12">
+          <pushwoosh></pushwoosh>
+        </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello.vue'
+import Pushwoosh from './components/Pushwoosh.vue'
 
 export default {
   components: {
-    Hello
+    Pushwoosh
   }
 }
 </script>
