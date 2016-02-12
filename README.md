@@ -1,2 +1,0 @@
-# PushWhooshDemo
-PushWhoosh Demo
