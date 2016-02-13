@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>PushWoosh Demo</h1>
+    <h1>Push Notification in My App with OneSignal</h1>
 
     <div class="box box-primary direct-chat direct-chat-primary">
       <div class="box-header with-border">
@@ -111,21 +111,27 @@ export default {
 
       $.ajax({
         type: "POST",
-        url: "https://cp.pushwoosh.com/json/1.3/createMessage",
+        url: "https://onesignal.com/api/v1/notifications?app_id=c1351af4-40be-4c75-b7ee-0afe4fdce5ac",
+        beforeSend: function (xhr) {
+          xhr.setRequestHeader('Authorization', 'Basic NDZjNjVmZjItZDhjZi00ZDIzLTg1MmYtMmU0Yzg1YTc5Yzg3'),
+          xhr.setRequestHeader('Content-Type', 'application/json')
+        },
         data: JSON.stringify({
-          "request": {
-            "application": "4FC89B6D14A655.46488481",
-            "auth": "mTdns0j6qLYPa/A5htmD46xVyoxdVQfPBz7NRqYYHz9PhvKXgJtOkAY+yo0YTXDEoztQAJFY0JmXnd89tf59",
-            "notifications": [{
-              "send_date": "now",
-              "ignore_user_timezone": true,
-              "content": this.notification_message
-            }]
-          }
+          "app_id": "c1351af4-40be-4c75-b7ee-0afe4fdce5ac",
+          "included_segments": ["All"],
+          "data": {"foo": "bar"},
+          "content_available":true,
+          "contents": {"en": this.notification_message,"es": this.notification_message},
+          "headings": {"en": this.notification_message,"es": this.notification_message},
+          "isAndroid": true,
+          "android_sound": "notification",
+          "android_led_color": "FF0000FF",
+          "android_visibility": 1
+
         }),
-        dataType: "json"
       }).done(function (data) {
         console.log(data);
+        $('#notificationMessage').val('');
       });
     },
   }
