@@ -1,6 +1,6 @@
 # pushwhoosh_demo
 
-<a href="http://alvaradoadam15.github.io/PushWhooshDemo/"></a>
+http://alvaradoadam15.github.io/PushWhooshDemo
 
 > A Vue.js project
 
