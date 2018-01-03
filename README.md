@@ -1,7 +1,8 @@
-# pushwhoosh_demo
+# PushWhooshDemo
 
-http://alvaradoadam15.github.io/PushWhooshDemo
+Web app with PushWoosh to send notifications demo
 
+[App](http://d3ltcod.github.io/PushWhooshDemo/)
 > A Vue.js project
 
 ## Build Setup
@@ -24,3 +25,7 @@ npm test
 ```
 
 For more information see the [docs for vueify](https://github.com/vuejs/vueify).
+
+# See also
+[PushWhoosh](https://www.pushwoosh.com/)
+
