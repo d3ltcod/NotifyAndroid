@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Push Notification in My App with OneSignal</h1>
+    <h1>Panel to send notifications in android app. <a href="https://github.com/d3ltcod/NotifyAndroid/tree/android"> See android app </a></h1>
 
     <div class="box box-primary direct-chat direct-chat-primary">
       <div class="box-header with-border">
@@ -21,7 +21,7 @@
           <!-- Message. Default to the left -->
           <div class="direct-chat-msg" v-for="notification in notifications">
             <div class="direct-chat-info clearfix">
-              <span class="direct-chat-name pull-left">Push Woosh</span>
+              <span class="direct-chat-name pull-left">User</span>
               <span class="direct-chat-timestamp pull-right">{{notification.date}}</span>
             </div>
             <!-- /.direct-chat-info -->

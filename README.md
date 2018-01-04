@@ -1,31 +1,10 @@
-# PushWhooshDemo
+# NotifyAndroid
 
-Web app with PushWoosh to send notifications demo
+Web app made with Vue to send notifications Android. See android app in branches.
 
-[App](http://d3ltcod.github.io/PushWhooshDemo/)
-> A Vue.js project
+[Web Test](http://d3ltcod.github.io/NotifyAndroid/)
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# lint all *.js and *.vue files
-npm run lint
-
-# run unit tests
-npm test
-```
-
-For more information see the [docs for vueify](https://github.com/vuejs/vueify).
+[Android App](https://github.com/d3ltcod/NotifyAndroid/tree/android)
 
 # See also
-[PushWhoosh](https://www.pushwoosh.com/)
-
+[Docs for vueify](https://github.com/vuejs/vueify).
