@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidNotifyReciver</string>
+    <string name="info">App to recive notifications from https://d3ltcod.github.io/NotifyAndroid/</string>
+</resources>
